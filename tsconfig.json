@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "outDir": "dist",
+      "sourceMap": false,
+      "resolveJsonModule": true
+    },
+    "lib": ["es2019", "es6", "dom", "webworker"],
+    "baseUrl": ".",
+    "paths": {
+			"src": ["./src"]
+		},
+    "include": [
+      "src/**/*.ts"
+, "src/workers/index.js"    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "esModuleInterop": true,
+  }
